@@ -185,3 +185,29 @@ let age = -65;
 
 let voting = age < 100 && age >= 18 ? "You can vote" : "You cannot vote";
 console.log(voting);
+
+//  Functions
+
+function myName (){
+  console.log("Tgirl");
+}
+myName("Tgirl")
+
+function introduce (name,age){
+  console.log("my name is " + name + ".I am "+ age + " years old ")
+}
+introduce("Toyosi", 25)
+
+function myBestFood (food){
+  console.log("My best food is " + food)
+}
+myBestFood("Rice")
+
+function num (){
+  console.log(50+100)
+}
+num()
+function myHobby(first,second){
+  console.log("I love " + first + " and " + second)
+} 
+myHobby("singing","dancing")
