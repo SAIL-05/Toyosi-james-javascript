@@ -211,3 +211,19 @@ function myHobby(first,second){
   console.log("I love " + first + " and " + second)
 } 
 myHobby("singing","dancing")
+
+// const username =prompt("Enter your name")
+// alert(`Welcome ${username}`)
+
+// let valueOne = parseInt(prompt("Enter your first Number"))
+// let valueTwo =parseInt(prompt("Enter your second Number"))
+// let ans = valueOne + valueTwo
+// alert(ans);
+
+let number = parseInt(prompt("Enter a number"))
+if (number % 2 == 0 ){
+  alert(`${number} is an even number `)
+}
+else{
+  alert(`${number} is an odd number`)
+}
