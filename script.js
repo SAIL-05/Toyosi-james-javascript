@@ -220,10 +220,47 @@ myHobby("singing","dancing")
 // let ans = valueOne + valueTwo
 // alert(ans);
 
-let number = parseInt(prompt("Enter a number"))
-if (number % 2 == 0 ){
-  alert(`${number} is an even number `)
-}
-else{
-  alert(`${number} is an odd number`)
-}
+// let number = parseInt(prompt("Enter a number"))
+// if (number % 2 == 0 ){
+//   alert(`${number} is an even number `)
+// }
+// else{
+//   alert(`${number} is an odd number`)
+// }
+
+
+// 
+// let greaterNumber=parseInt(prompt("Enter a number"))
+// let lesserNumber=parseInt(prompt("Enter another number"))
+
+// if (greaterNumber > lesserNumber  ){
+//   alert(`${greaterNumber} is greater than ${lesserNumber}`)
+// }
+// else (greaterNumber < lesserNumber){
+//   alert(`${lesserNumber} is lesser than ${greaterNumber}`)
+// }
+
+// let scores = parseInt(prompt("Enter your score"))
+// if(scores >=0 &&  scores <=39){
+//   alert(`${scores} Is F`)
+// }
+// else if( scores >=40 && scores <=44){
+//   alert(`${scores} IS E`)
+// }
+// else if( scores >= 45 && scores <=49){
+//   alert(`${scores} is D`)
+// }
+// else if(scores >= 50 && scores <= 59){
+//   alert(`${scores} is C`)
+// }
+// else if (scores >= 60 && scores<= 69){
+//   alert(`${scores} is B`)
+// }
+// else if (scores >= 70 && scores <= 100){
+//   alert(`${scores} is A`)
+// }
+// else {
+//   alert(`${scores} is Invalid`)
+// }
+
+let weight =parsefloat(prompt())
