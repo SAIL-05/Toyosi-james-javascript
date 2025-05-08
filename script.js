@@ -262,5 +262,10 @@ myHobby("singing","dancing")
 // else {
 //   alert(`${scores} is Invalid`)
 // }
+let scoreboard = [1,2,3,5, {name:"ife", score:60}]
+ 
+scoreboard[4].name= 'ife'
+console.log(scoreboard[4].name)
 
-let weight =parsefloat(prompt())
+scoreboard[4]["name"]= 60
+console.log(scoreboard[4]["name"])
