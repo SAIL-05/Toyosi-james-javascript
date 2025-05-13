@@ -269,3 +269,47 @@ console.log(scoreboard[4].name)
 
 scoreboard[4]["name"]= 60
 console.log(scoreboard[4]["name"])
+
+let mystr ="Hello, Javascript World";
+let myname ="James Toyosi"
+console.log(mystr.toUpperCase())
+console.log(mystr.toLowerCase())
+console.log(mystr.charAt())
+console.log(mystr.indexOf("Javascript"))
+console.log(mystr.includes("Hello"))
+console.log(mystr.slice(2,8))
+console.log(mystr.trim())
+console.log(mystr.replace("World","universe"))
+console.log(myname.split(" ")[1])
+// concat methods
+console.log(myname +" "+ mystr)
+
+// Number Method
+let num2 = 42.678
+let strnum= "89.56"
+console.log(num2);
+console.log(num2.toString())
+console.log(num2.toFixed(2))
+console.log(parseInt(strnum))
+console.log(parseFloat(strnum))
+console.log(isNaN("TRTR"))
+
+// Math Methods
+
+console.log(Math.PI)
+console.log(Math.round(41.673))
+console.log(Math.floor(42.9))
+console.log(Math.ceil(42.1))
+console.log(Math.max(12,6,7))
+console.log(Math.min(34,5,7))
+console.log(Math.random())
+console.log(Math.pow(2,5))
+console.log(Math.sqrt(144))
+
+let studs = {
+name:"Toyosi",
+age:21,
+gender:"Female"
+}
+console.log(Object.keys(studs))
+console.log(Object.values(studs))
