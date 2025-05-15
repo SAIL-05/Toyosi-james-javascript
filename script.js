@@ -313,3 +313,60 @@ gender:"Female"
 }
 console.log(Object.keys(studs))
 console.log(Object.values(studs))
+
+// FUNCTIONS
+// function declaration
+function greet(name,gender){
+  console.log("Hello World", name,gender)
+}
+greet("ife","male")
+greet("sam" ,"male")
+
+function sums(num1,num2){
+  let result =num1+num2;
+  console.log(result)
+}
+sums(2,3)
+
+// function expression
+let sums2 =function(num1,num2,num3){
+  let results=num1 + num2 + num3;
+  console.log(results);
+}
+sums2(5,5,15)
+
+//  function takeinput() {
+//    let user=prompt("Enter any number")
+// if (user>6){
+//   alert(`${user} this number is greater than 6`)
+
+// }
+// else{
+//   alert("This number is not greater than 6")
+// }
+
+// }
+// takeinput()
+function subtract (num1,num2){
+  let answer = num1-num2
+  console.log(answer)
+}
+subtract(15,10)
+
+// function myName(){
+//   let userName =prompt("Enter your name")
+//   console.log('your name is ' + userName.length + ' letters Long')
+  
+// }
+// myName()
+function work(a,b,c,d){
+  console.log (Math.max(a,b,c,d))
+}
+
+work(5,15,3,6)
+// Arrow Functions
+ (()=>{})
+ 
+ const greetMe = () =>{
+
+ }
