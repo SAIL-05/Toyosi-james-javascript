@@ -359,14 +359,21 @@ subtract(15,10)
   
 // }
 // myName()
-function work(a,b,c,d){
-  console.log (Math.max(a,b,c,d))
-}
+// function work(a,b,c,d){
+//   console.log (Math.max(a,b,c,d))
+// }
 
-work(5,15,3,6)
+// work(5,15,3,6)
 // Arrow Functions
  (()=>{})
- 
+
  const greetMe = () =>{
 
  }
+
+ const input =() =>{
+  let userInput =prompt("Enter your name")
+  console.log("your name is " + userInput.length + " letters long")
+
+ }
+ input()
